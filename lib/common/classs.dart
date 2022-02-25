@@ -214,7 +214,7 @@ class _ClassPageState extends State<ClassPage> {
                                   primary: Color.fromARGB(255, 25, 131, 28),
                                 ),
                                 child: const Text(
-                                  "ADD",
+                                  " ",
                                   style: TextStyle(color: Colors.white),
                                 ),
                                 onPressed: () {
