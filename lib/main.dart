@@ -36,7 +36,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
       body: Row(
         children: <Widget>[
           NavigationRail(
-            backgroundColor: Color.fromARGB(255, 189, 176, 180),
+            backgroundColor: Color.fromARGB(255, 246, 245, 250),
             selectedIndex:index,
             onDestinationSelected: (int index) {
               setState(() {
