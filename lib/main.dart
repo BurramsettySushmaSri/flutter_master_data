@@ -36,7 +36,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
       body: Row(
         children: <Widget>[
           NavigationRail(
-            backgroundColor: Colors.pink,
+            backgroundColor: Color.fromARGB(255, 189, 176, 180),
             selectedIndex:index,
             onDestinationSelected: (int index) {
               setState(() {
@@ -47,13 +47,13 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
             destinations: [
               NavigationRailDestination(
                 icon: Icon(Icons.favorite_border),
-                selectedIcon: Icon(Icons.favorite),
-                label: Text('First'),
+                selectedIcon: Icon(Icons.door_back_door),
+                label: Text('Class'),
               ),
               NavigationRailDestination(
                 icon: Icon(Icons.bookmark_border),
                 selectedIcon: Icon(Icons.book),
-                label: Text('Second'),
+                label: Text('Course'),
               ),
               
             ],
